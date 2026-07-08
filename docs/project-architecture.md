@@ -7,7 +7,8 @@ architecture, workflow, or product direction changes.
 
 - Use Gitflow-style naming for commits and PR titles.
 - Allowed commit and PR title prefixes are `feature:`, `fix:`, `docs:`, `chore:`, and `refactor:`.
-- Never include bracketed agent tags in commits, PR titles, issue titles, or docs.
+- Use Gitflow-style branch names with the same allowed prefixes, such as `docs/task-tracker`.
+- Never include agent/tool tags or names in branch names, commits, PR titles, issue titles, or docs.
 - Prefer small, reviewable PRs grouped by feature or risk area.
 - Stage only the files that belong to the current PR; the repo may have unrelated local changes.
 - Never force-push a branch unless the push is specifically part of a rebase workflow.
