@@ -40,5 +40,6 @@ Use this exact section format for every PR:
 
 - Run the smallest meaningful validation for the change.
 - For docs-only changes, state that tests were not run because the change is documentation-only.
+- New implemented features must include both unit tests and e2e tests.
 - For UI changes, run automated checks and verify layout visually with browser screenshots when appropriate.
 - For behavior changes, prefer focused tests first, then broader checks before opening or updating a PR.
