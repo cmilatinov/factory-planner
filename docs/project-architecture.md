@@ -10,6 +10,7 @@ architecture, workflow, or product direction changes.
 - Never include bracketed agent tags in commits, PR titles, issue titles, or docs.
 - Prefer small, reviewable PRs grouped by feature or risk area.
 - Stage only the files that belong to the current PR; the repo may have unrelated local changes.
+- Never force-push a branch unless the push is specifically part of a rebase workflow.
 - Preserve existing behavior unless a task explicitly changes it.
 - Verify UI work with automated checks and, when visual layout changes, browser screenshots.
 - Use the standard PR body format for every PR:
