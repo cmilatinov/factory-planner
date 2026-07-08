@@ -17,6 +17,13 @@ This file captures process rules for branches, commits, pull requests, staging, 
 - Preserve existing behavior unless a task explicitly changes it.
 - Do not bundle large pre-existing app changes into unrelated task PRs.
 
+## Documentation Updates
+
+- Keep docs updated with the latest project information as features and architecture evolve.
+- When starting work on a new feature, update the relevant task file with the planned checklist if it is missing or stale.
+- When completing feature work, update the task list with completed items and reference the GitHub PR that completed them.
+- If implementation changes architecture, data flow, workflow, or verification expectations, update the relevant docs in the same PR.
+
 ## PR Body Format
 
 Use this exact section format for every PR:
