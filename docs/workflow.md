@@ -5,8 +5,9 @@ This file captures process rules for branches, commits, pull requests, staging, 
 ## Branches, Commits, And PR Titles
 
 - Use Gitflow-style naming for branches, commits, and PR titles.
-- Allowed prefixes are `feature:`, `fix:`, `docs:`, `chore:`, and `refactor:`.
-- Branch names must use the same allowed prefixes as path-style prefixes, such as `docs/task-tracker`.
+- Commit messages and PR titles must use one of these colon-style prefixes: `feature:`, `fix:`, `docs:`, `chore:`, or `refactor:`.
+- Branch names must use slash-separated prefixes: `feature/`, `fix/`, `docs/`, `chore/`, or `refactor/`.
+- Branch names must not use colon-style prefixes; use `docs/task-tracker`, not `docs: task tracker`.
 - Never include agent/tool tags or names in branch names, commits, PR titles, issue titles, or docs.
 - Never force-push a branch unless the push is specifically part of a rebase workflow.
 
