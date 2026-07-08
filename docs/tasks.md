@@ -18,7 +18,7 @@ layout, better canvas affordances, and more maintainable code organization.
 - [Editor Interactions](tasks/editor-interactions.md): tools, routing feedback, selection behavior, shortcuts, and object actions.
 - [Bus Inspector](tasks/bus-inspector.md): bus/lane editing, capacity presentation, and narrow-panel usability.
 - [Code Organization](tasks/code-organization.md): extracting the editor out of `src/App.tsx` into focused modules.
-- [Verification](tasks/verification.md): tests, e2e coverage, screenshot checks, and release-readiness commands.
+- [Verification Workflow](tasks/verification.md): ongoing per-PR testing, screenshot, and validation process.
 
 ## Status Snapshot
 
