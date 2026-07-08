@@ -1,26 +1,7 @@
 # Project Architecture Notes
 
 This file is working context for future implementation passes. Keep it current when major
-architecture, workflow, or product direction changes.
-
-## Working Conventions
-
-- Use Gitflow-style naming for commits and PR titles.
-- Allowed commit and PR title prefixes are `feature:`, `fix:`, `docs:`, `chore:`, and `refactor:`.
-- Use Gitflow-style branch names with the same allowed prefixes, such as `docs/task-tracker`.
-- Never include agent/tool tags or names in branch names, commits, PR titles, issue titles, or docs.
-- Prefer small, reviewable PRs grouped by feature or risk area.
-- Stage only the files that belong to the current PR; the repo may have unrelated local changes.
-- Never force-push a branch unless the push is specifically part of a rebase workflow.
-- Preserve existing behavior unless a task explicitly changes it.
-- Verify UI work with automated checks and, when visual layout changes, browser screenshots.
-- Use the standard PR body format for every PR:
-  - `## What changed`
-  - `## Tasks addressed`
-  - `## Why`
-  - `## Impact`
-  - `## Validation`
-- In `Tasks addressed`, link or name the checklist item(s) the PR implements.
+architecture or product direction changes. Workflow rules live in `docs/workflow.md`.
 
 ## Product Purpose
 
